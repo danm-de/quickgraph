@@ -24,6 +24,7 @@ namespace QuickGraph
         TTag tag;
 
         public STaggedEdge(TVertex source, TVertex target, TTag tag)
+            :this()
         {
             Contract.Requires(source != null);
             Contract.Requires(target != null);

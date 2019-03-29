@@ -31,6 +31,7 @@ namespace QuickGraph
         /// <param name="target">The target.</param>
         /// <param name="tag">The tag.</param>
         public SUndirectedTaggedEdge(TVertex source, TVertex target, TTag tag)
+            :this()
         {
             Contract.Requires(source != null);
             Contract.Requires(target != null);

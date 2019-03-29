@@ -3,27 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ci", "ci", "{6EC5788D-DB36-4094-AB0F-A9E2C0F56B62}"
-	ProjectSection(SolutionItems) = preProject
-		Build\ccnet.config = Build\ccnet.config
-		Build\ccnet.server.config = Build\ccnet.server.config
-		Build\quickgraph.build = Build\quickgraph.build
-		quickgraph.nuspec = quickgraph.nuspec
-		Build\quickgraph.shfb = Build\quickgraph.shfb
-	EndProjectSection
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6D81E7BA-91B1-473B-B9BB-4DECB1825F66}"
 	ProjectSection(SolutionItems) = preProject
-		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
 		quickgraph.nuspec = quickgraph.nuspec
-		QuickGraph.Perf1.psess = QuickGraph.Perf1.psess
-		QuickGraph.vsmdi = QuickGraph.vsmdi
-		QuickGraph1.vsmdi = QuickGraph1.vsmdi
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{22937B93-4129-4F68-AB14-F7AFE020BA8F}"
-	ProjectSection(SolutionItems) = preProject
-		dgmlsample.dgml = dgmlsample.dgml
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{7A2A3C07-B652-4759-AFC4-49378D764784}"
@@ -38,7 +20,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuickGraph.Samples", "Quick
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuickGraph.Serialization", "QuickGraph.Serialization\QuickGraph.Serialization.csproj", "{4D96C520-8EDA-49F0-9201-ED8BEE69B1FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickGraph.All", "QuickGraph.All\QuickGraph.All.csproj", "{B664D903-64F4-41AD-9843-B0A636ABDE2C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuickGraph.All", "QuickGraph.All\QuickGraph.All.csproj", "{B664D903-64F4-41AD-9843-B0A636ABDE2C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

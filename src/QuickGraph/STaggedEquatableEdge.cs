@@ -25,6 +25,7 @@ namespace QuickGraph
         TTag tag;
 
         public STaggedEquatableEdge(TVertex source, TVertex target, TTag tag)
+            :this()
         {
             Contract.Requires(source != null);
             Contract.Requires(target != null);

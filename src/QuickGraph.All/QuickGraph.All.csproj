@@ -15,21 +15,18 @@
     <Company>Jonathan Peli de Halleux</Company>
     <Product>QuickGraph</Product>
     <Summary>Generic graph data structures and algorithms for .NET</Summary>
-    <Description>
-      QuickGraph provides generic directed/undirected graph data structures and algorithms for .Net, Silverlight, Windows Phone and Win 8.
-      QuickGraph comes with algorithms such as depth first search, breath first search, A* search, shortest path,
-      k-shortest path, maximum flow, minimum spanning tree, least common ancestors, etc...
-    </Description>
-    <PackageProjectUrl>https://github.com/hcoona/quickgraph</PackageProjectUrl>
-    <PackageLicenseUrl>http://quickgraph.codeplex.com/license</PackageLicenseUrl>
+    <Description>QuickGraph provides generic directed/undirected graph data structures and algorithms for .Net. QuickGraph comes with algorithms such as depth first search, breath first search, A* search, shortest path, k-shortest path, maximum flow, minimum spanning tree, least common ancestors, etc...
+</Description>
+    <PackageProjectUrl>https://github.com/danm-de/quickgraph</PackageProjectUrl>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/pelikhan/quickgraph/master/LICENSE</PackageLicenseUrl>
     <PackageTags>algorithms graph directed undirected dfs bfs graphviz graphml data structure</PackageTags>
     <NeutralLanguage>en-US</NeutralLanguage>
-    <PackageReleaseNotes>
-      Generic graph data structures and algorithms for .NET
-      This is a folk version building for Net40 &amp; NetStandard2.0
-    </PackageReleaseNotes>
-    <PackageIconUrl>https://raw.githubusercontent.com/hcoona/quickgraph/master/src/QuickGraph/quickgraph.png</PackageIconUrl>
-    <RepositoryUrl>https://github.com/hcoona/quickgraph</RepositoryUrl>
+    <PackageReleaseNotes>Generic graph data structures and algorithms for .NET
+      
+This is a forked version building for Net40 &amp; NetStandard2.0
+ (Changes made by @hcoona  https://github.com/hcoona/quickgraph)</PackageReleaseNotes>
+    <PackageIconUrl>https://raw.githubusercontent.com/pelikhan/quickgraph/master/3.0/sources/QuickGraph/quickgraph.png</PackageIconUrl>
+    <RepositoryUrl>https://github.com/danm-de/quickgraph</RepositoryUrl>
     <RepositoryType>Git</RepositoryType>
   </PropertyGroup>
 
